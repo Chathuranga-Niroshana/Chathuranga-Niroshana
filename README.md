@@ -92,9 +92,4 @@ I'm a **Software Engineer** and a passionate full-stack developer who loves turn
 - 🛠️ I often help teams improve developer experience and process automation
 - 🚴‍♂️ I enjoy tech meetups, YouTube tech creators, and casual biking after code sprints
 
----
-
-> *“Simplicity is the soul of efficiency.”* – Austin Freeman  
-> *“First, solve the problem. Then, write the code.”* – John Johnson
-
 Thanks for stopping by! Feel free to connect — let’s build something amazing together 🚀
