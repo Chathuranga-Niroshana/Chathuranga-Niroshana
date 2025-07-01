@@ -21,9 +21,13 @@ I'm a **Software Engineer** and a passionate full-stack developer who loves turn
 
 ### 💻 Frontend
 - React.js, Next.js, Vue.js
-- Redux, Zustand
+- Redux, Zustand, Context API
 - TypeScript, JavaScript, HTML5, CSS3
 - Tailwind CSS, Bootstrap, Styled Components
+
+
+### 🖥️ Desktop
+- Electron.js
 
 ### 📱 Mobile
 - React Native (iOS & Android)
@@ -31,11 +35,11 @@ I'm a **Software Engineer** and a passionate full-stack developer who loves turn
 
 ### ⚙️ Backend & Server
 - Node.js, Express.js
-- Python (Flask)
+- Python - Flask , FastAPI
 - PHP, Java
 
 ### 🗃️ Database
-- MongoDB, MySQL
+- MongoDB, MySQL, PostgreSQL
 
 ### 🎨 UI/UX Design
 - Figma, Canva
