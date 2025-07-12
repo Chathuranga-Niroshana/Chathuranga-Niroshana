@@ -7,9 +7,9 @@ I'm a **Software Engineer** and a passionate full-stack developer who loves turn
 ## 🧠 About Me
 
 - 💼 **Current Role**: Software Engineer @ [Soft Vision Technology](https://github.com/soft-vision-technology)
-- 🎓 **Academic**: Final year BSc (Hons) Software Engineering student at **CINEC Campus, Malabe**
+- 🎓 **Academic**: BSc (Hons) Software Engineering at **CINEC Campus, Malabe**
 - 💡 **What I Do**:
-  - 🖥️ Full-Stack Web & Mobile Development
+  - 🖥️ Full-Stack Web, Desktop & Mobile Development
   - 🎨 UI/UX Design & Prototyping
   - 📱 Cross-platform Mobile Apps with React Native
   - 🚀 DevOps, Deployment & CI/CD
@@ -42,7 +42,7 @@ I'm a **Software Engineer** and a passionate full-stack developer who loves turn
 - MongoDB, MySQL, PostgreSQL
 
 ### 🎨 UI/UX Design
-- Figma, Canva
+- Figma
 - Design systems & wireframing
 
 ### 🧪 Tools & DevOps
