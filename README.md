@@ -1,8 +1,3 @@
-# 🚀 Complete Auto-Updating GitHub Profile Setup
-
-## Step 1: Replace Your README.md Content
-
-Copy this complete README.md to your `Chathuranga-Niroshana/Chathuranga-Niroshana` repository:
 
 ```markdown
 # Hi there! 👋 I'm Chathuranga Niroshana
@@ -37,7 +32,6 @@ const chathuranga = {
 - 🌱 Learning **Advanced React Patterns**, **Cloud Architecture**, and **DevOps**
 - 👯 Looking to collaborate on **MERN/MEVN stack projects** and **React Native apps**
 - 💬 Ask me about **React**, **Node.js**, **UI/UX Design**, or **Mobile Development**
-- ⚡ Fun fact: I'm obsessed with **pixel-perfect designs** and **clean code**
 
 ---
 
