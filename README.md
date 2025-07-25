@@ -14,6 +14,28 @@
 
 ---
 
+## 🔥 Additional Auto-Updating Widgets
+
+### WakaTime Coding Stats (Optional - Requires Setup)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YourWakaTimeUsername&theme=radical&hide_border=true&layout=compact" alt="WakaTime Stats" height="165">
+</div>
+
+### Latest Blog Posts (Auto-updates from RSS)
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+### Recent GitHub Activity (Auto-updates)
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+### Spotify Currently Playing (Real-time)
+<div align="center">
+  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff" alt="Spotify Playing" width="350">
+</div>
+
+---
+
 ## 🚀 About Me
 
 ```javascript
@@ -21,8 +43,7 @@ const chathuranga = {
     currentRole: "Software Engineer @ Soft Vision Technology",
     education: "BSc (Hons) Software Engineering - CINEC Campus",
     location: "Colombo, Sri Lanka 🇱🇰",
-    currentlyLearning: ["Advanced TypeScript", "Serverless Architecture", "DevOps"],
-    funFact: "I turn coffee into code and ideas into reality ☕→💻"
+    currentlyLearning: ["Advanced TypeScript", "Serverless Architecture", "DevOps"]
 };
 ```
 
@@ -88,13 +109,28 @@ const chathuranga = {
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical&hide_border=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" height="165">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=YourGitHubUsername&theme=radical&hide_border=true" alt="GitHub Streak" height="165">
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=radical&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Languages" height="165">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=YourGitHubUsername&theme=redical&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" height="165">
+</div>
+
+### 📈 Real-time Metrics
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YourGitHubUsername&theme=radical" alt="Profile Summary" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YourGitHubUsername&theme=radical" alt="Repos per Language" height="180">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YourGitHubUsername&theme=radical" alt="Most Commit Language" height="180">
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YourGitHubUsername&theme=radical" alt="Stats" height="180">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=YourGitHubUsername&theme=radical&utcOffset=5.5" alt="Productive Time" height="180">
 </div>
 
 ---
