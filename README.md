@@ -1,99 +1,196 @@
-# 👋 Hey there, I'm Chathuranga Niroshana
+# Hi there! 👋 I'm Chathuranga Niroshana
 
-I'm a **Software Engineer** and a passionate full-stack developer who loves turning ideas into clean, scalable, and user-friendly software. I’m currently in my **final year of BSc (Hons) in Software Engineering** at **CINEC Campus, Malabe**, and working professionally at **[Soft Vision Technology (PVT) LTD](https://github.com/soft-vision-technology)**.
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=Full-Stack+Software+Engineer;React+%7C+Node.js+%7C+React+Native;UI%2FUX+Designer+%26+Developer;Always+learning+new+technologies" alt="Typing SVG" />
+</div>
 
----
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chathuranga-niroshana-651122252/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://chathuranganiroshanawebdev.netlify.app/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:niroshana.c.n.j@gmail.com)
 
-## 🧠 About Me
-
-- 💼 **Current Role**: Software Engineer @ [Soft Vision Technology](https://github.com/soft-vision-technology)
-- 🎓 **Academic**: BSc (Hons) Software Engineering at **CINEC Campus, Malabe**
-- 💡 **What I Do**:
-  - 🖥️ Full-Stack Web, Desktop & Mobile Development
-  - 🎨 UI/UX Design & Prototyping
-  - 📱 Cross-platform Mobile Apps with React Native
-  - 🚀 DevOps, Deployment & CI/CD
-  - 📊 Agile Product Development & Project Management
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 About Me
 
-### 💻 Frontend
-- React.js, Next.js, Vue.js
-- Redux, Zustand, Context API
-- TypeScript, JavaScript, HTML5, CSS3
-- Tailwind CSS, Bootstrap, Styled Components
+```javascript
+const chathuranga = {
+    currentRole: "Software Engineer @ Soft Vision Technology",
+    education: "BSc (Hons) Software Engineering - CINEC Campus",
+    location: "Colombo, Sri Lanka 🇱🇰",
+    currentlyLearning: ["Advanced TypeScript", "Serverless Architecture", "DevOps"],
+    funFact: "I turn coffee into code and ideas into reality ☕→💻"
+};
+```
 
-
-### 🖥️ Desktop
-- Electron.js
-
-### 📱 Mobile
-- React Native (iOS & Android)
-- Expo, Firebase Integration
-
-### ⚙️ Backend & Server
-- Node.js, Express.js
-- Python - Flask , FastAPI
-- PHP, Java
-
-### 🗃️ Database
-- MongoDB, MySQL, PostgreSQL
-
-### 🎨 UI/UX Design
-- Figma
-- Design systems & wireframing
-
-### 🧪 Tools & DevOps
-- Git & GitHub
-- Docker (basics)
-- Postman, VS Code
-- Jira
+- 🔭 Currently working on **full-stack web applications** and **mobile apps**
+- 🌱 Learning **Advanced React Patterns**, **Cloud Architecture**, and **DevOps**
+- 👯 Looking to collaborate on **MERN/MEVN stack projects** and **React Native apps**
+- 💬 Ask me about **React**, **Node.js**, **UI/UX Design**, or **Mobile Development**
+- ⚡ Fun fact: I'm obsessed with **pixel-perfect designs** and **clean code**
 
 ---
 
-## 📌 Featured Projects
+## 🛠️ Tech Stack & Tools
 
-> You can check out some of my work on my portfolio websites:
+### Frontend Development
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" alt="nextjs" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+</p>
 
-🔗 [**Portfolio 1** ](https://chathuranganiroshanawebdev.netlify.app/)  
-🔗 [**Portfolio 2**](https://niroshanawebdev.netlify.app/)  
-🔗 [**LinkedIn**](https://www.linkedin.com/in/chathuranga-niroshana-651122252/)
+### Backend Development
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+</p>
+
+### Mobile Development
+<p align="left">
+<img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/expo/expo/main/.github/resources/banner.png" alt="expo" width="80" height="40"/>
+</p>
+
+### Database & Cloud
+<p align="left">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/>
+</p>
+
+### Tools & Others
+<p align="left">
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
+<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/>
+</p>
 
 ---
 
-## 🌱 Currently Learning
+## 📊 GitHub Statistics
 
-- Advanced TypeScript and React Performance Patterns
-- Serverless Architecture & Cloud Functions
-- DevOps Pipelines with Docker & GitHub Actions
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" height="165">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YourGitHubUsername&theme=radical&hide_border=true" alt="GitHub Streak" height="165">
+</div>
 
----
-
-## 🤝 Open for Collaboration On
-
-- MERN/MEVN Stack Web Applications
-- React Native Mobile Apps
-- UI/UX Design & Branding for Startups
-- Open-source Contributions
-- API Development & Integration
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" height="165">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YourGitHubUsername&theme=redical&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" height="165">
+</div>
 
 ---
 
-## 📫 How to Reach Me
+## 🏆 GitHub Achievements
 
-- 📧 Email: `niroshana.c.n.j@gmail.com`
-- 💬 LinkedIn: [linkedin.com/in/chathuranga-niroshana-651122252](https://www.linkedin.com/in/chathuranga-niroshana-651122252/)
-- 🌐 Portfolio: [chathuranganiroshanawebdev.netlify.app](https://chathuranganiroshanawebdev.netlify.app/)
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=YourGitHubUsername&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies">
+</div>
 
 ---
 
-## ⚡ Fun Facts
+## 🌟 Featured Projects
 
-- 🧠 I love learning about new tech and building things that matter
-- ✨ I'm obsessed with clean UI and pixel-perfect design
-- 🛠️ I often help teams improve developer experience and process automation
-- 🚴‍♂️ I enjoy tech meetups, YouTube tech creators, and casual biking after code sprints
+<div align="center">
 
-Thanks for stopping by! Feel free to connect — let’s build something amazing together 🚀
+[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=YourGitHubUsername&repo=project1&theme=radical&hide_border=true)](https://github.com/YourGitHubUsername/project1)
+[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=YourGitHubUsername&repo=project2&theme=radical&hide_border=true)](https://github.com/YourGitHubUsername/project2)
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YourGitHubUsername&bg_color=0d1117&color=ffffff&line=2196f3&point=ffffff&area=true&hide_border=true" alt="Contribution Graph" width="100%">
+</div>
+
+---
+
+## 💼 Professional Experience
+
+### 🏢 **Software Engineer @ Soft Vision Technology (PVT) LTD**
+- 🔧 **Full-Stack Development**: Building scalable web applications with React, Node.js, and modern frameworks
+- 📱 **Mobile Development**: Creating cross-platform apps with React Native
+- 🎨 **UI/UX Design**: Designing user-centric interfaces with Figma
+- 🚀 **DevOps**: Implementing CI/CD pipelines and deployment strategies
+
+### 🎓 **Academic Journey @ CINEC Campus, Malabe**
+- 📚 **BSc (Hons) Software Engineering** - Final Year
+- 🏆 Focus on modern software development practices and emerging technologies
+
+---
+
+## 🌱 Currently Exploring
+
+```yaml
+Learning Path 2024-2025:
+  - Advanced TypeScript & React Performance Optimization
+  - Serverless Architecture (AWS Lambda, Vercel Functions)
+  - Docker & Kubernetes for Microservices
+  - GraphQL & Apollo Client/Server
+  - Next.js 14 with App Router
+  - React Native with Expo Router
+```
+
+---
+
+## 📫 Let's Connect!
+
+<div align="center">
+
+**Open for collaboration on:**
+- 🌐 MERN/MEVN Stack Applications
+- 📱 React Native Mobile Apps  
+- 🎨 UI/UX Design Projects
+- 🚀 Open Source Contributions
+- 💡 Startup MVP Development
+
+</div>
+
+<div align="center">
+  
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-chathuranganiroshanawebdev.netlify.app-2196F3?style=for-the-badge)](https://chathuranganiroshanawebdev.netlify.app/)
+[![Secondary Portfolio](https://img.shields.io/badge/🔗_Portfolio_2-niroshanawebdev.netlify.app-FF5722?style=for-the-badge)](https://niroshanawebdev.netlify.app/)
+
+**📧 Email**: niroshana.c.n.j@gmail.com  
+**🌍 Location**: Colombo, Sri Lanka 🇱🇰
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=YourGitHubUsername&label=Profile%20views&color=2196F3&style=for-the-badge" alt="Profile Views" />
+</div>
+
+<div align="center">
+  
+**"Building the future, one commit at a time"** 🚀
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=fadeIn" width="100%"/>
+</div>
