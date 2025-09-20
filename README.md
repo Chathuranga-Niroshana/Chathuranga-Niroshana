@@ -127,6 +127,7 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuranga-Niroshana&bg_color=1a1b27&color=70a5fd&line=38bdae&point=70a5fd&area=true&hide_border=true" alt="Contribution Graph"/>
 </div>
 
+
 ---
 
 ## 🏆 GitHub Achievements
@@ -134,6 +135,12 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Chathuranga-Niroshana&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" alt="GitHub Trophies"/>
 </div>
+
+### 🐍 Contribution Snake
+<div align="center">
+  <img src="https://github.com/Chathuranga-Niroshana/Chathuranga-Niroshana/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+</div>
+
 
 ---
 
@@ -175,6 +182,46 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 - **📊 Real-Time Applications** - Socket.io integration for live data synchronization
 
 ---
+### 🎯 Dev Meme
+<div align="center">
+  <img src="https://random-memer.herokuapp.com/" width="400px"/>
+</div>
+
+---
+
+### 📊 More GitHub Stats
+
+<!-- Commits Per Year -->
+<div align="center">
+  <img width="60%" src="https://github-readme-stats.vercel.app/api?username=Chathuranga-Niroshana&count_private=true&show_icons=true&include_all_commits=true&hide=contribs&theme=tokyonight&hide_border=true" alt="Commits Per Year"/>
+</div>
+
+---
+
+<!-- PRs, Issues, Repo Stats -->
+<div align="center">
+  <img width="90%" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Chathuranga-Niroshana&theme=tokyonight" alt="Profile Summary"/>
+</div>
+
+<div align="center">
+  <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Chathuranga-Niroshana&theme=tokyonight" alt="Repos per Language"/>
+  <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Chathuranga-Niroshana&theme=tokyonight" alt="Most Commit Language"/>
+</div>
+
+<div align="center">
+  <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Chathuranga-Niroshana&theme=tokyonight" alt="Stats"/>
+  <img width="49%" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Chathuranga-Niroshana&theme=tokyonight&utcOffset=5" alt="Productive Time"/>
+</div>
+
+---
+
+<!-- Languages Pie Chart -->
+<div align="center">
+  <img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chathuranga-Niroshana&theme=tokyonight&layout=pie&hide_border=true" alt="Languages Pie Chart"/>
+</div>
+
+---
+
 
 ## 🌱 Current Learning Journey
 
