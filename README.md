@@ -314,5 +314,5 @@ console.log("Thanks for visiting my profile! 🚀");
   <img src="https://img.shields.io/github/followers/Chathuranga-Niroshana?label=Followers&style=for-the-badge&color=2196F3" alt="GitHub Followers"/>
 </div>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&width="100%"&section=footer)
 
