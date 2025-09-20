@@ -114,17 +114,14 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chathuranga-Niroshana&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chathuranga-Niroshana&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chathuranga-Niroshana&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </div>
 
-<div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chathuranga-Niroshana&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&exclude_repo=comp1140-ass2" alt="Top Languages"/>
-</div>
+---
 
-### 📈 Contribution Graph
+### 🐍 Contribution Snake
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuranga-Niroshana&bg_color=1a1b27&color=70a5fd&line=38bdae&point=70a5fd&area=true&hide_border=true" alt="Contribution Graph"/>
+  <img src="https://github.com/Chathuranga-Niroshana/Chathuranga-Niroshana/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </div>
 
 
@@ -136,11 +133,11 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
   <img src="https://github-profile-trophy.vercel.app/?username=Chathuranga-Niroshana&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" alt="GitHub Trophies"/>
 </div>
 
-### 🐍 Contribution Snake
-<div align="center">
-  <img src="https://github.com/Chathuranga-Niroshana/Chathuranga-Niroshana/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</div>
 
+### 📈 Contribution Graph
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuranga-Niroshana&bg_color=1a1b27&color=70a5fd&line=38bdae&point=70a5fd&area=true&hide_border=true" alt="Contribution Graph"/>
+</div>
 
 ---
 
