@@ -313,3 +313,6 @@ console.log("Thanks for visiting my profile! 🚀");
   <img src="https://komarev.com/ghpvc/?username=Chathuranga-Niroshana&label=Profile%20Views&color=2196F3&style=for-the-badge" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/Chathuranga-Niroshana?label=Followers&style=for-the-badge&color=2196F3" alt="GitHub Followers"/>
 </div>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer)
+
