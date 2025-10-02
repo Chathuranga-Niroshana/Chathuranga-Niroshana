@@ -119,14 +119,6 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 
 ---
 
-### 🐍 Contribution Snake
-<div align="center">
-  <img src="https://github.com/Chathuranga-Niroshana/Chathuranga-Niroshana/blob/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</div>
-
-
----
-
 ## 🏆 GitHub Achievements
 
 <div align="center">
