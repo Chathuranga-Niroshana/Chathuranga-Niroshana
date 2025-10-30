@@ -119,6 +119,8 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 
 ---
 
+![GitHub Snake Light](assets/snake.svg)
+
 ## 🏆 GitHub Achievements
 
 <div align="center">
