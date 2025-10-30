@@ -1,0 +1,42 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *'      # daily at midnight UTC (customize)
+  workflow_dispatch: {}      # allow manual runs
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate snake image (SVG or GIF)
+        uses: Platane/snk@v3
+        id: gen
+        with:
+          # required: github username (defaults to repo owner)
+          github_user_name: ${{ github.repository_owner }}
+          # output file path (committed later)
+          output_path: assets/snake.svg
+          # format: svg or gif
+          format: svg
+          # palette: github | github-dark | github-light (or custom)
+          palette: github-dark
+          # snake_color and dot_color accept hex values or CSS colors
+          snake_color: '#6ee7b7'
+          dot_color: '#34d399'
+          # keep the repo token available to the action if needed
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated image
+        # EndBug/add-and-commit is a common action to commit files
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "chore: update snake contribution image"
+          add: 'assets/snake.*'
+          author_name: GitHub Actions
+          author_email: actions@github.com
