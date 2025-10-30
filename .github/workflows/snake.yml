@@ -2,33 +2,28 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
-  generate-snake:
+  build:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Create assets folder
-        run: mkdir -p assets
 
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Chathuranga-Niroshana
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            assets/snake.svg
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Commit generated image
+      - name: Push Snake to GitHub
         uses: EndBug/add-and-commit@v9
         with:
-          add: "assets/snake.svg"
-          message: "chore: update snake contribution animation"
+          message: "chore: update snake contribution image"
+          add: "dist/*.svg"
