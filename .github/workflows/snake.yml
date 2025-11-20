@@ -19,25 +19,39 @@ jobs:
         with:
           # Use the PAT so git remote is configured with credentials that can push
           token: ${{ secrets.GH_PAT }}
-
+          # fetch full history so rebases/pulls work reliably
+          fetch-depth: 0
+          # keep credentials for later git operations
+          persist-credentials: true
+    
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: Chathuranga-Niroshana
-          # This action can run with the default GITHUB_TOKEN; keep it unless you need the PAT
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
+    
+      - name: Ensure branch is up to date
+        # If the remote has new commits, rebase the current work on top to avoid non-fast-forward
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          # Rebase local branch onto remote main; if it fails, abort and fall back to merge
+          if ! git rebase origin/main; then
+            git rebase --abort || true
+            git pull --no-edit origin main
+          fi
+    
       - name: Push Snake to GitHub
         uses: EndBug/add-and-commit@v9
         env:
-          # Ensure the push uses the PAT
+          # Use the PAT for authenticated push
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         with:
           message: "chore: update snake contribution image"
           add: "dist/*.svg"
-          # Optional: set author to the GitHub Actions bot identity
           author_name: "github-actions[bot]"
           author_email: "41898282+github-actions[bot]@users.noreply.github.com"
