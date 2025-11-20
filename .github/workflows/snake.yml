@@ -16,9 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          # Use the PAT so git remote is configured with credentials that can push
           token: ${{ secrets.GH_PAT }}
           fetch-depth: 0
-          persist-credentials: true
+          # We will explicitly set the origin URL below to ensure the PAT is used for pushes
+          persist-credentials: false
 
       - name: Generate snake animation
         uses: Platane/snk@v3
@@ -29,16 +31,16 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Configure git and remote auth
+      - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # Ensure the origin remote uses the PAT so non-interactive pushes succeed
+          # Make sure origin uses the PAT so subsequent git push uses the PAT
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
 
-      - name: Commit generated images (if changes)
+      - name: Stage and commit generated images (if any)
         run: |
-          # Add generated artifacts
+          # Stage generated artifacts (ignore error if none)
           git add dist/*.svg || true
 
           # Only commit if there are staged changes
@@ -49,28 +51,32 @@ jobs:
 
           git commit -m "chore: update snake contribution image" --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
 
-      - name: Push changes with safe retry on non-fast-forward
+      - name: Rebase on remote main and push (safe)
+        env:
+          REPO: ${{ github.repository }}
         run: |
-          # Ensure we are on main
+          # Ensure we're on main (create/force local branch to track)
           git checkout -B main
 
           # Fetch latest remote main
           git fetch origin main
 
-          # Try to rebase our local commits on top of remote main (safe, keeps history linear)
-          if ! git rebase origin/main; then
-            echo "Rebase failed or there were conflicts. Aborting rebase and attempting pull --rebase."
-            git rebase --abort || true
-            git pull --rebase origin main || true
+          # Try to rebase local commits on top of origin/main to avoid non-fast-forward
+          if git rev-parse --verify origin/main >/dev/null 2>&1; then
+            if ! git rebase origin/main; then
+              echo "Rebase failed. Aborting and attempting pull --rebase as fallback."
+              git rebase --abort || true
+              git pull --rebase origin main || true
+            fi
           fi
 
-          # Attempt push. Use --force-with-lease as a last resort to avoid clobbering unknown remote changes.
-          if ! git push origin HEAD:main --force-with-lease; then
-            echo "Push failed on first attempt. Fetching remote and retrying with --force-with-lease."
-            git fetch origin main
-            git rebase origin/main || (git rebase --abort || true; git pull --rebase origin main || true)
-            git push origin HEAD:main --force-with-lease
+          # Try normal push first
+          if git rev-parse --verify origin/main >/dev/null 2>&1; then
+            if ! git push origin main; then
+              echo "Normal push failed (non-fast-forward). Retrying with --force-with-lease to avoid clobbering unexpected remote updates."
+              git push origin main --force-with-lease
+            fi
+          else
+            # If origin/main doesn't exist yet (first push), do a simple push
+            git push origin main
           fi
-        env:
-          # ensure PAT available for remote URL substitution (already injected in remote URL above)
-          GH_PAT: ${{ secrets.GH_PAT }}
