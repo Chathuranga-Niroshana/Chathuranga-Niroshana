@@ -5,7 +5,6 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
-# Ensure the workflow token has content write permission (helps if using GITHUB_TOKEN)
 permissions:
   contents: write
 
@@ -17,41 +16,61 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Use the PAT so git remote is configured with credentials that can push
           token: ${{ secrets.GH_PAT }}
-          # fetch full history so rebases/pulls work reliably
           fetch-depth: 0
-          # keep credentials for later git operations
           persist-credentials: true
-    
+
       - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: Chathuranga-Niroshana
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_PAT }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-    
-      - name: Ensure branch is up to date
-        # If the remote has new commits, rebase the current work on top to avoid non-fast-forward
+
+      - name: Configure git and remote auth
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          # Rebase local branch onto remote main; if it fails, abort and fall back to merge
-          if ! git rebase origin/main; then
-            git rebase --abort || true
-            git pull --no-edit origin main
+          # Ensure the origin remote uses the PAT so non-interactive pushes succeed
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
+
+      - name: Commit generated images (if changes)
+        run: |
+          # Add generated artifacts
+          git add dist/*.svg || true
+
+          # Only commit if there are staged changes
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
           fi
-    
-      - name: Push Snake to GitHub
-        uses: EndBug/add-and-commit@v9
+
+          git commit -m "chore: update snake contribution image" --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+
+      - name: Push changes with safe retry on non-fast-forward
+        run: |
+          # Ensure we are on main
+          git checkout -B main
+
+          # Fetch latest remote main
+          git fetch origin main
+
+          # Try to rebase our local commits on top of remote main (safe, keeps history linear)
+          if ! git rebase origin/main; then
+            echo "Rebase failed or there were conflicts. Aborting rebase and attempting pull --rebase."
+            git rebase --abort || true
+            git pull --rebase origin main || true
+          fi
+
+          # Attempt push. Use --force-with-lease as a last resort to avoid clobbering unknown remote changes.
+          if ! git push origin HEAD:main --force-with-lease; then
+            echo "Push failed on first attempt. Fetching remote and retrying with --force-with-lease."
+            git fetch origin main
+            git rebase origin/main || (git rebase --abort || true; git pull --rebase origin main || true)
+            git push origin HEAD:main --force-with-lease
+          fi
         env:
-          # Use the PAT for authenticated push
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-        with:
-          message: "chore: update snake contribution image"
-          add: "dist/*.svg"
-          author_name: "github-actions[bot]"
-          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          # ensure PAT available for remote URL substitution (already injected in remote URL above)
+          GH_PAT: ${{ secrets.GH_PAT }}
