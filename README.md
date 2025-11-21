@@ -119,9 +119,6 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 
 ---
 
-![snake gif](https://raw.githubusercontent.com/Chathuranga-Niroshana/Chathuranga-Niroshana/main/dist/github-contribution-grid-snake.svg)
-
-
 ## 🏆 GitHub Achievements
 
 <div align="center">
