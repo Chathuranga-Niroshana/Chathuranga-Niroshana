@@ -1,4 +1,5 @@
 # Hi there! 👋 I'm Chathuranga Niroshana
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full-Stack+Software+Engineer+🚀;React+%7C+Node.js+%7C+React+Native;Desktop+%26+Mobile+Developer+📱;UI%2FUX+Designer+%26+Developer+🎨;Always+learning+new+technologies+📚;Building+the+future%2C+one+commit+at+a+time+✨" alt="Typing SVG" />
@@ -13,10 +14,9 @@
 </div>
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 🚀 About Me
-
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ```javascript
 const chathuranga = {
@@ -50,10 +50,12 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 - 📫 Reach me at **niroshana.c.n.j@gmail.com**
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### 🎨 Frontend Development
 <p>
@@ -110,32 +112,43 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 </div>
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 📊 GitHub Statistics
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <div align="center">
   <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chathuranga-Niroshana&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 🏆 GitHub Achievements
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Chathuranga-Niroshana&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" alt="GitHub Trophies"/>
 </div>
 
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### 📈 Contribution Graph
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chathuranga-Niroshana&bg_color=1a1b27&color=70a5fd&line=38bdae&point=70a5fd&area=true&hide_border=true" alt="Contribution Graph"/>
 </div>
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 💼 Professional Experience
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### 🏢 **Software Engineer @ Soft Vision Technology (PVT) LTD**
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+
 *Current Position*
 
 - 🔧 **Full-Stack Development**: Building scalable web applications with React, Next.js, Node.js, Python, and microservices
@@ -146,12 +159,16 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 - 📊 **API Development**: Building robust REST APIs with FastAPI, Flask, and Express.js
 
 ### 🎓 **Academic Journey @ CINEC Campus, Malabe**
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+
 *BSc (Hons) Software Engineering*
 - 📚 Specialized in modern software development practices, data structures, algorithms, and system design
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 🌟 Featured Projects
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <div align="center">
 
@@ -177,8 +194,10 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 </div>
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### 📊 More GitHub Stats
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <!-- Commits Per Year -->
 <div align="center">
@@ -211,8 +230,10 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 
 ---
 
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 🌱 Current Learning Journey
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <div align="center">
 
@@ -239,8 +260,10 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 </div>
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 🤝 Let's Connect & Collaborate!
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <div align="center">
 
@@ -271,8 +294,10 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 </div>
 
 ---
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ## 🎭 Fun Facts
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <div align="center">
 
@@ -305,6 +330,7 @@ console.log("Thanks for visiting my profile! 🚀");
   <img src="https://komarev.com/ghpvc/?username=Chathuranga-Niroshana&label=Profile%20Views&color=2196F3&style=for-the-badge" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/Chathuranga-Niroshana?label=Followers&style=for-the-badge&color=2196F3" alt="GitHub Followers"/>
 </div>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&width="100%"&section=footer)
 
