@@ -147,7 +147,7 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### 🏢 **Software Engineer @ Soft Vision Technology (PVT) LTD**
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 *Current Position*
 
@@ -159,7 +159,7 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 - 📊 **API Development**: Building robust REST APIs with FastAPI, Flask, and Express.js
 
 ### 🎓 **Academic Journey @ CINEC Campus, Malabe**
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 
 *BSc (Hons) Software Engineering*
 - 📚 Specialized in modern software development practices, data structures, algorithms, and system design
