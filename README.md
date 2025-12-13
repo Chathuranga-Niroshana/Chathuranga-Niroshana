@@ -52,6 +52,22 @@ console.log("Welcome to my GitHub! Let's build something amazing together 🚀")
 ---
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Isuru-Senanayake/Isuru-Senanayake/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Isuru-Senanayake/Isuru-Senanayake/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Isuru-Senanayake/Isuru-Senanayake/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
